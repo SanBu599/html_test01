@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" value="개인 정보 입력 ">
+    지역<br>
+    <select name="city" id="city">
+        <option value="강북구">강북구</option>
+        <option value="강남구" selected>강남구</option>
+        <option value="서초구">서초구</option>
+        <option value="중원구">중원구</option>
+        <option value="분당구">분당구</option>
+    </select>
+
+    <select name="city" id="city">
+        <optgroup label="서울시">
+            <option value="강북구">강북구</option>
+            <option value="강남구">강남구</option>
+            <option value="서초구">서초구</option>
+        </optgroup>
+        <optgroup label="경기도">
+            <option value="중원구">중원구</option>
+            <option value="분당구">분당구</option>
+        </optgroup>
+    </select>
+    <select name="city" id="city" multiple>
+        <option value="강북구">강북구</option>
+        <option value="강남구">강남구</option>
+        <option value="서초구">서초구</option>
+        <option value="중원구">중원구</option>
+        <option value="분당구">분당구</option>
+    </select><br>
+    <button type="submit">
+        <img src="../Git-Icon-1788C.png" alt="깃허브 버튼" style="width: 5%;"><br>
+    </button><br>
+    <input type="text" disabled>
+    <button type="button" disabled>비활성화</button><br>
+    <input type="password" value="비밀번호입력" readonly><br>
+    <textarea readonly></textarea><br>
+    <input type="url" maxlength="4"><br>
+    <textarea maxlength="4"></textarea><br>
+    <fieldset>
+        <legend>좋아하는 과일</legend>
+            <input type="checkbox" id="banana" name="banana" value="banana">
+            <label for="banana">banana</label><br>
+            <input type="checkbox" id="apple" name="apple" value="apple">
+            <label for="apple">apple</label><br>
+            <input type="checkbox" id="orange" name="orange" value="orange" checked>
+            <label for="orange">orange</label><br>
+    </fieldset>
+    <input type="tel" placeholder="전화번호를 입력해 주세요">
+
+</body>
+</html>
